@@ -27,3 +27,5 @@ public class DatabaseConnection {
         }
     }
 }
+// javac -cp "lib/mysql-connector-j-9.1.0.jar" -d bin src/DatabaseConnection.java to compile
+// java -cp "lib/mysql-connector-j-9.1.0.jar:bin" DatabaseConnection test connection
